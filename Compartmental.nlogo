@@ -110,6 +110,10 @@ to go
   set I2 I2 + dI2/dt * deltaT
   set R2 R2 + dR2/dt * deltaT
   
+   set S2 S2 + dS2/dt * deltaT
+  set I2 I2 + dI2/dt * deltaT
+  set R2 R2 + dR2/dt * deltaT
+  
   tick
 end
 
