@@ -33,6 +33,8 @@ Globals[
 ;; Agent type
 breed [Mel pop1]
 breed [Gueck pop2]
+breed [Mel3 pop3]
+breed [Gueck3 pop4]
 ;;Parameters specific to each member of the population, or individual characteristics
 turtles-own[
   Infected?
@@ -132,7 +134,6 @@ to LoopSyntax
   
   
 end
-
 @#$#@#$#@
 GRAPHICS-WINDOW
 347
@@ -578,7 +579,7 @@ Polygon -7500403 true true 270 75 225 30 30 225 75 270
 Polygon -7500403 true true 30 75 75 30 270 225 225 270
 
 @#$#@#$#@
-NetLogo 5.1.0
+NetLogo 5.2.0
 @#$#@#$#@
 @#$#@#$#@
 @#$#@#$#@
