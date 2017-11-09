@@ -134,8 +134,25 @@ to LoopSyntax
     ;commands
     ;commands
   ]
+end   
+ to LoopChange
+  ;;When you want to repeat commands multiple times
   
+  let i 0
+  loop[
+    if i > 5 [stop]
+    ;commands 
+    ;commands
+    ;commands
+    set i i + 1
+  ]
   
+  repeat 10 [
+    ;commands 
+    ;commands
+    ;commands
+  ]
+   
   
 end
 @#$#@#$#@
